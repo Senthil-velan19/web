@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+<ul>
+    <img id="logo" src="icons9-vegetable-64.png">  
+    <h1 id="title"> Organic.in </h1>
+</ul>
+    <div class="main">
+        <h1>Login</h1>
+        <h3>Enter your login details</h3>
+        <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+        <div class="wrap">
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+    <p>Not registered? <a href="register.html" style="text-decoration: none;">Create an account</a></p><hr>
+    <a href="home.html">Home</a>
+    </div>
+   
+    <style>
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+h1 {
+    color: rgb(152, 232, 32)
+}
+#title{
+    color: rgb(152, 232, 32);
+    height: 30px;
+    padding-top: 10px;
+}
+
+ body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+    background: #f3f3f3;
+    flex-direction: column;
+
+        }
+label {
+    display: block;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: left;
+    color: grey;
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 16px;
+}
+ul{
+    display: flex;
+    cursor: pointer;
+ }  
+ a{
+    text-decoration: none;
+ }  
+    </style>
+</body>
+</html>

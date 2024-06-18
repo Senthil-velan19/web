@@ -1,0 +1,55 @@
+body {
+    background: #000;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+div {
+    background-color: black;
+    color: white;
+}
+ #cart{
+         height: 30px;
+         margin-top: 10px;
+
+}
+h1{
+    margin-right: 400px;
+    color: rgb(152, 232, 32)
+}
+#login{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#vegetableimg{
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 30px;
+    height: 400px;
+    width: 600px;
+    display: block;
+    float: left;
+}
+#content{
+    color: ghostwhite;
+    padding-top: 100px;
+    
+}
+h4:hover{
+    color: grey;
+}
+#paracolor{
+    color: greenyellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+  
